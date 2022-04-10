@@ -66,9 +66,9 @@ export default class Field {
       if (this.width * this.height - this.mines  === this.openCount) alert("game over!");
     }
 
-    private openAll() {
-      this.cells.map(row => row.map(cell => cell.open()))
-    }
+//     private openAll() {
+//       this.cells.map(row => row.map(cell => cell.open()))
+//     }
 
     die() {
       console.log()
